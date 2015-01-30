@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = "> 1.3.6"
 
-  s.add_dependency "activesupport" , "~> 3.2"
-  s.add_dependency "rails"         , "~> 3.2"
+  s.add_dependency "activesupport" , "~> 4.1"
+  s.add_dependency "rails"         , "~> 4.0"
 
   s.files = `git ls-files`.split("\n")
   s.executables = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
